@@ -193,7 +193,6 @@ describe('crontime', function() {
 			expect(function() {
 				new cron.CronTime('* * * L * *');
 			}).to.throw(Error);
-
 		});
 
 		it('(* * * * * L)', function() {
